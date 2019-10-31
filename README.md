@@ -4,7 +4,7 @@ A genetic algorithm to determine the most efficient way to "complete" RuneScape
 ## Outline
 1. Research and collect data.
   * Data includes quests (and miniquests), the necessary tasks to complete each quest, the necessary requirements to start each quest, achievements, the necessary requirements to perform each achievement, and the location of each task (represented as a (x,y,z) coordinate, where x is the number of squares along the East-West axis, y is the number of squares along the North-South axis, and z is the number of levels up or down, using Lumbridge Home Teleport as (0,0,0)).
-  * To fully complete a character, a player needs to train to level 99 in all skills. Since training is more efficient at higher levels, the completion guide will also opt to gain XP from quests before skilling, if possible.
+  * To fully complete a character, a player needs to train to level 99 in all skills and complete all quests and achievements.
   * This guide assumes the the player is a member but does not assume that the player will purchase any additional benefits. A player can improve their efficiency by paying for bonds, which they can then sell for millions in-game, but it will be left to the player to decide if and when they will do so.
   * This guide assumes that the player (essentially) skips tutorial island and begins the guide as a fresh character.
 2. Curate a set of directed acyclic graphcs (DAGs).
